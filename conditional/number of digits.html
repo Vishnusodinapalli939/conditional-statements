@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("enter a value to check the number of digits")
+        let rem=0,c=0;
+        while(a!=0){
+            rem=a%10;
+            if(rem!=0){
+                c++;
+            }
+            a=Math.floor(a/10);
+        }
+        alert(c);
+    </script>
+</body>
+</html>

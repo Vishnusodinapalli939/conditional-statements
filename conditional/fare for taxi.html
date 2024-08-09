@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dist=+prompt("enter travelled distance");
+        if(dist>=1 && dist<=5)
+            alert("$5");
+        else if(dist>=6 && dist<=10)
+            alert("$10");
+        else if(dist>=11 && dist<=20)
+            alert("$20");
+        else if(dist>=20){
+            let b=(30+(dist-20)*5)
+             alert(`$30+$${(dist-20)*5}=$${b}`);
+        }
+        else
+            alert("enter valid distance");
+           
+    </script>
+</body>
+</html>
